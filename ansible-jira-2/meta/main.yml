@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  description: "An Ansible playbook to automate the installation of Atlassian Jira, could posibly be used to keep it updated"
+  license: BSD
+  min_ansible_version: 2.2
+  platforms:
+    - name: EL
+      versions:
+        - 7
+  tags:
+   - development
+   - jira
+   - atlassion
+dependencies:
+  - role: overdrive3000.java8
